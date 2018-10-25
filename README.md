@@ -1,9 +1,8 @@
 # KBGAN
 ## This repo is the pytorch-v0.4.1 implement version for KBGAN. But the results is not consistent with the original result. 
 Look for issues and solutions !!!
-### MyQQ: 1159829123 &nbsp;&nbsp;&nbsp;&nbsp;Nickname: Liwei_KGE  
-
-Where the problem I find in the base_model.py, when variable filt set to False, the result(hits@10 is about:28%) will be better than filtered(hits@10 is about:10%).   
+### MyQQ: 1159829123 &nbsp;&nbsp;&nbsp;&nbsp;Nickname: Liwei_KGE
+#### Where the problem I find in the base_model.py, when variable filt set to False, the result(hits@10 is about:28%) will be better than filtered(hits@10 is about:10%).   
 **That is so ridiculous !!!**
 ```angular2html
 lineno: 95:
