@@ -13,6 +13,7 @@
 
 
 ## Usage
+- - -
 * Pretrain(for example):   
 python pretrain.py --config=config_fb15k237.yaml --pretrain_config=TransE  
 python pretrain.py --config=config_fb15k237.yaml --pretrain_config=DistMult  
