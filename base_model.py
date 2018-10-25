@@ -92,8 +92,7 @@ class BaseModel(object):
             self.mdl.constraint()
         return losses.data, -fake_scores.data
 
-    def test_link(self, test_data, n_ent, heads, tails, filt=True):
-        # when variable filt set to False, the result will be better! that is ridiculous!!!
+    def test_link(self, test_data, n_ent, heads, tails, filt=False):
         mrr_tot = 0
         mr_tot = 0
         hit10_tot = 0
