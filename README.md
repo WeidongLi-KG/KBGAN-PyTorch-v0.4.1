@@ -1,5 +1,5 @@
 # KBGAN
-#### This repo is the pytorch-v0.4.1 implement version for KBGAN. But the results is not consistent with the original result. 
+### This repo is the pytorch-v0.4.1 implement version for KBGAN. But the results is not consistent with the original result. 
 Look for issues and solutions !!!  
 MyQQ: 1159829123 &nbsp;&nbsp;&nbsp;&nbsp;Nickname: Liwei_KGE   
 
