@@ -1,5 +1,5 @@
 # KBGAN
-## This repo is the pytorch-v0.4.1 implement version for KBGAN. But the results is not consistent with the original result.
+## This repo is the pytorch-v0.4.1 implement version for KBGAN.
 
 > The origin repo: https://github.com/cai-lw/KBGAN  
 > Liwei Cai and William Yang Wang, "KBGAN: Adversarial Learning for Knowledge Graph Embeddings", in *Proceedings of The 16th Annual Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL HLT 2018)*.    
