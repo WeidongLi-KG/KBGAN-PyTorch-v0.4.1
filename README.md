@@ -20,6 +20,6 @@ python pretrain.py --config=config_fb15k237.yaml --pretrain_config=DistMult
 * Adversarial train:  
  python gan_train.py --config=config_fb15k237.yaml --g_config=TransE --d_config=DistMult  
 (make sure that G model and D model are both pretrained)   
-***
+- - -
 Feel free to explore and modify parameters in config files. Default parameters are those used in experiments reported in the paper.  
 Decrease **test_batch_size** in config files if you experience GPU memory exhaustion. (this would make the program runs slower, but would not affect the test result)
