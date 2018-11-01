@@ -108,11 +108,11 @@ class BaseModel(object):
             for s, r, t, dst_scores, src_scores in zip(batch_s, batch_r, batch_t, batch_dst_scores, batch_src_scores):
                 if filt:
                     if tails[(s.item(), r.item())]._nnz() > 1:
-                        tmp = dst_scores[t]
+                        tmp = dst_scores[t].item()
                         dst_scores += tails[(s.item(), r.item())].cuda() * 1e30
                         dst_scores[t] = tmp
                     if heads[(t.item(), r.item())]._nnz() > 1:
-                        tmp = src_scores[s]
+                        tmp = src_scores[s].item()
                         src_scores += heads[(t.item(), r.item())].cuda() * 1e30
                         src_scores[s] = tmp
                 mrr, mr, hit10 = mrr_mr_hitk(dst_scores, t)
